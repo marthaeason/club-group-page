@@ -1,0 +1,14 @@
+/*colors*/
+dark pink: #A61B34
+middle pink: #D92555
+light pink: #F2A0BE
+darker blue: #1B78F2
+lighter blue: #1B8EF2
+
+/*font*/
+poiret one 
+work sans 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Work+Sans:ital,wght@0,100;0,400;1,500;1,900&display=swap" rel="stylesheet">
