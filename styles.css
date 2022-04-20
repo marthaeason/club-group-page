@@ -1,3 +1,197 @@
+/*universial styles*/
 html {
     font-size: 16px;
+}
+
+body {
+    font-family: "Work Sans", sans-serif, Arial;
+    background-color: #F2A0BE;
+}
+
+/* nav */
+
+ul {
+    padding-left: 0rem;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #F2A0BE;
+}
+
+nav {
+    background-color: #A61B34 ;
+    height: 3rem;
+    width: 100%;
+}
+
+/*title*/
+
+h1 {
+    font-family: "Poiret One", sans-serif, Arial;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.title {
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #A61B34;
+    color: #F2A0BE;
+}
+
+/*about*/
+
+h2 {
+    color: #D92555 ;
+    font-size: 2rem;
+}
+
+p {
+    color:#D92555;
+}
+
+span {
+    color:#1B8EF2;
+}
+
+p, span {
+    font-size: 1.5rem;
+}
+
+.about {
+height: auto;
+width: 90%;
+text-align: center;
+margin-left: auto;
+    margin-right: auto;
+    padding: 4rem;
+    line-height: 2rem;
+}
+
+/*club pictures*/
+
+.photos {
+width: 90%;
+height: auto;
+margin-left: auto;
+    margin-right: auto;
+display: flex;
+justify-content: center;
+gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.photos img {
+    width: 40%;
+    height: 25rem;
+    object-fit: fill;
+}
+
+/*quote*/
+
+.quote {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2rem;
+    color: #A61B34;
+    padding: 4rem;
+}
+
+blockquote {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Poiret One", sans-serif ;
+}
+
+/*books*/
+
+.books {
+    width: 90%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.books img{
+    width: 40%;
+    height: 30rem;
+    object-fit: fill;
+}
+
+/*membership*/
+
+.membership {
+    padding: 3rem;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    color: #D92555 ;
+    font-size: 5rem;
+}
+
+fieldset {
+    width: 50%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #1B8EF2 5px dotted;
+}
+
+/*footer*/
+
+ul {
+    padding-left: 0rem;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #F2A0BE;
+}
+
+footer {
+    background-color: #A61B34 ;
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    line-height: 0;
+}
+
+h5 {
+    color: #1B8EF2;
+    padding: 1rem;
 }
