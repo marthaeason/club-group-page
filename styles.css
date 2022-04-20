@@ -25,10 +25,42 @@ a {
     color: #F2A0BE;
 }
 
+a:hover {
+    text-decoration: underline;
+    color: #1B8EF2;
+}
+
 nav {
     background-color: #A61B34 ;
     height: 3rem;
     width: 100%;
+}
+
+@media only screen and (max-width: 1070px) {
+    li {
+display: block;
+font-size: 1.5rem;
+    }
+    nav {
+        height: auto;
+        width: 100%;
+        padding: 0;
+    }
+    ul {
+        height: auto;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    h5 {
+        height: auto;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 0;
+    }
 }
 
 /*title*/
@@ -147,6 +179,14 @@ gap: 3rem;
     object-fit: fill;
 }
 
+@media only screen and (max-width: 1070px){
+    .books img {
+        width: 90%;
+        height: auto;
+        object-fit: fill;
+    }
+}
+
 /*membership*/
 
 .membership {
@@ -174,6 +214,24 @@ fieldset {
     border: #1B8EF2 5px dotted;
 }
 
+@media only screen and (max-width: 1070px) {
+    .membership {
+        padding: 3rem;
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    fieldset {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 /*footer*/
 
 ul {
@@ -195,11 +253,37 @@ footer {
     background-color: #A61B34 ;
     height: auto;
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
     line-height: 0;
 }
 
 h5 {
     color: #1B8EF2;
     padding: 1rem;
+}
+
+@media only screen and (max-width: 1070px) {
+    li {
+display: block;
+    }
+    footer {
+        height: auto;
+        width: 100%;
+        padding: 1rem;
+    }
+    ul {
+        height: auto;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    h5 {
+        height: auto;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 0;
+    }
 }
